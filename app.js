@@ -1,6 +1,7 @@
 var express = require('express');
 var app = express();
 
+var db_name = "sampledb"
 //provide a sensible default for local development
 mongodb_connection_string = 'mongodb://127.0.0.1:27017/' + db_name;
 //take advantage of openshift env vars when available:
